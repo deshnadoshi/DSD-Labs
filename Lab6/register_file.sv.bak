@@ -1,0 +1,4 @@
+module register_file(input logic clk, rst, 
+input logic[4:0] A1, A2, A3, // A1, A2, A3 are the addresses
+input logic[31:0] WD3, // data from data memory
+input logic WE3, // WE3 = 1, write register file
